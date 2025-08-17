@@ -296,14 +296,14 @@ section{
     .banner-description{
         font-size: 1.2rem;
     }
-    .banner-img img{
+    .banner-img img,.product img{
         width:100%;
     }
 
 
 /* section related styles */
     section{
-        padding: 20px;
+        padding:1rem;
     }
     .sponsors{
         flex-wrap: wrap;
