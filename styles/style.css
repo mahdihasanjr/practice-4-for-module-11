@@ -307,7 +307,8 @@ section{
     }
     .sponsors{
         flex-wrap: wrap;
-        gap:1rem;
+        gap:2rem;
+        padding:0;
         
     }
     .popular-card-box{
