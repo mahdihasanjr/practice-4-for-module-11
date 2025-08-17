@@ -1,0 +1,309 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+
+:root{
+    --primary-font:"Poppins", sans-serif;
+    --secondary-font: "Inter", sans-serif;
+    --third-font:"Manrope", sans-serif;
+}
+body{
+    margin:0;
+    padding: 0;
+}
+/* Shared styles */
+.btn-primary{
+    color:#ffffff;
+    background-color: #E02C6D;
+    font-size: 0.67rem;
+    font-weight: 700;
+    padding: 0.67rem 1rem;
+    border-radius: 1.7rem;
+    border:none;
+}
+.btn-secondary{
+    color:#ffffff;
+    background-color: #E02C6D;
+    font-size: 0.67rem;
+    padding: 0.67rem 1rem;
+    border:none;
+}
+/* color style */
+.primary-color{
+    color:#3A3A3A;
+}
+
+header{
+    font-family: var(--primary-font);
+}
+article{
+    max-width:75%;
+    margin:100px auto;
+}
+section{
+    margin:4rem auto;
+}
+
+/* nav related styles */
+.navbar{
+    display: flex;
+    font-family: var(--primary-font);
+    justify-content: space-between;
+    align-items: center;
+    margin:3.6rem 5rem 1.67rem;
+}
+
+.nav-brand{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.nav-links{
+    display: flex;
+    gap:1.47rem;
+    font-weight: 600;
+}
+.nav-item{
+    list-style: none;
+    font-size: 1rem;
+    
+}
+.nav-link{
+    text-decoration: none;
+    color:#3A3A3A;
+    
+    
+}
+/* banner related styles */
+.banner{
+    display: flex;
+    align-items: center;
+    gap:5.56rem;
+    justify-content: space-between;
+    margin:0rem 5.52rem 2.88rem 5rem;
+    
+}
+
+.banner-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 0.67rem;
+}
+.banner-description{
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 0.67rem;
+    line-height: 1.5rem;
+    font-family: var(--primary-font);
+}
+#arrow-right{
+    margin-left: 6px;
+}
+
+
+.banner-img img{
+    background: url('../images/Circle design.svg');
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+
+/* sponsors related styles */
+
+.sponsors{
+    background: #f7f7f748;
+    border-top:1px ridge #f7f7f748;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-items: center;
+    gap:2.5rem;
+   
+}
+
+/* popular related styles */
+.popular-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+   
+}
+
+.popular-card-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    gap:1rem;
+    
+}
+.popular-card{
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+    font-family: var(--secondary-font);
+    padding: 17px 15px;
+    border-radius: 5px;
+}
+.popular-card img{
+    width:100%;
+}
+.img-name{
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin:1.25rem 0;
+    font-family: var(--primary-font);
+    color:rgba(24, 25, 31, 1);
+    line-height: 1.6rem;
+    
+}
+.dollar{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:rgba(0, 0, 0, 0.87);
+    line-height: 1.5rem;
+    margin:1rem 0;
+   
+    
+}
+.star{
+    color:rgb(235, 157, 14);
+    font-size: 0.8rem;
+}
+.star-ratting{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 0.4rem;
+    color:rgba(94, 99, 102, 1);
+}
+.popular-card-description{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color:rgba(120, 120, 133, 1);
+    letter-spacing:1.8%;
+}
+.popular-btn{
+    font-size: 1rem;
+    font-weight: 700;
+    text-align:right;
+    margin-top: 3rem;
+    font-family: var(--primary-font);
+}
+
+.popular-btn a{
+    color:rgba(224, 44, 109, 0.87);
+    text-decoration: none;
+}
+
+
+
+/* product related styles */
+
+.product{
+    display: flex;
+    gap:4rem;
+    align-items: center;
+    justify-content: center;
+}
+.product-content{
+    font-family: var(--primary-font);
+}
+.product-title{
+    font-weight: 700;
+    color:#0A0826;
+    font-size: 1.85rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.product-content .banner-description{
+    color:#6C6C6C;
+}
+
+
+/* footer related code start */
+.main-footer{
+    padding: 3rem 0;
+    background:#0A0826;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: var(--primary-font);
+    color:#FFFFFF;  
+    margin-bottom: 0;
+}
+.footer-description{
+    font-size: 0.8rem;
+    font-family: var(--third-font);
+    color:#D9DBE1;
+    line-height: 1.5rem;
+}
+.footer-sponsors{
+   display: flex;
+   gap:1rem;
+   justify-content: center;
+}
+.footer-sponsors a{
+    color:#FFFFFF;
+}
+
+
+/* responsive media query for smaller devices */
+
+
+.secondary-navbar{
+    display: none;
+}
+
+
+
+@media screen and (max-width:576.36px) {
+
+    .navbar{
+        display: none;
+    }
+    .secondary-navbar{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin:20px;
+        color:#3A3A3A;
+    }
+    .banner{
+        margin:1.25rem;
+    }
+    .banner, .product{
+        flex-direction: column-reverse;
+        gap:2rem;
+        text-align: center;  
+    }
+    .banner-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-description{
+        font-size: 1.2rem;
+    }
+    .banner-img img,.sponsors img{
+        width:100%;
+    }
+    /* section related styles */
+    .sponsors{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .popular-card-box{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
